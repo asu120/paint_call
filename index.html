@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.webrtc.ecl.ntt.com/skyway-4.4.3.js"></script>
+  <title>探求発表用</title>
+</head>
+<body>
+  <div class="parent">
+    <canvas id="canvas" width="820" height="620"></canvas>
+    <video id="my-video" width="400px" autoplay muted playsinline></video>
+    <p class="my-id_info">あなたのID</p>
+    <p class="my-id" id="my-id"></p>
+    <input  class="their-id" id="their-id"></input>
+    <button class="delete_canvas" type="button" onclick="delete_canvas()">自分のキャンバスをクリア</button>
+    <select class="color" id="color">
+      <option value="black" style="background-color:black;color:white" selected>ペン色 黒</option>
+      <option value="red" style="background-color:red;color:white">ペン色 赤</option>
+      <option value="blue" style="background-color:blue;color:white">ペン色 青</option>
+      <option value="yellow" style="background-color:yellow;color:black">ペン色 黄</option>
+      <option value="white" style="background-color:white;color:black">消しゴム</option>
+    </select>
+    <button class="make-call" id="make-call">発信</button>
+    <video class="their-video" id="their-video" width="820" height="620"   autoplay  playsinline></video>
+  </div>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="skyway.js"></script> 
+  <script type="text/javascript" src="skyway copy.js"></script> 
+  <script type="text/javascript" src="paint.js"></script>
+  <script type="text/javascript" src="other.js"></script>
+</body>
+</html>

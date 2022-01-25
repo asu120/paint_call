@@ -1,0 +1,83 @@
+body{
+    background-color:#fff7d5;
+    font-family: "游明朝", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+
+}
+
+.parent{
+    position: relative;
+    padding: 20px
+}
+
+.my-id_info{
+    font-family: "Yu Gothic";
+    font-weight: 500;
+    font-size: 35px;
+    color: #6E4627;
+    position: absolute;
+    top:650px;
+	left:10px;
+}
+
+.my-id{
+    font-family: "Verdana";
+    font-weight: "bold";
+    font-size: 40px;
+    color: #936C4E;
+    position: absolute;
+    top:690px;
+	left:10px;
+}
+
+.their-id{
+    color: #936C4E; 
+    font-size: 40px;
+    position: absolute;
+    top: 800px;
+	left:10px;
+}
+
+.make-call{
+    font-family: "Yu Gothic";
+    font-weight: 500;
+    color: #936C4E; 
+    font-size: 30px;
+    position: absolute;
+    top: 800px;
+	left:520px;
+}
+
+.delete_canvas{
+    font-family: "Yu Gothic";
+    font-weight: 500;
+    color: #ff0000; 
+    font-size: 30px;
+    position: absolute;
+    top: 50px;
+    left: 1800px;
+}
+
+.color{
+    font-family: "Yu Gothic";
+    font-weight: 500;
+    color: #936C4E; 
+    font-size: 30px;
+    position: absolute;
+    top: 150px;
+    left: 1800px;
+}
+
+.their-video{
+    border: solid 20px #20008B;
+    position: absolute;
+    top: 10px;
+	left:900px;
+}
+
+canvas {
+    background-color: white;
+    border: solid 20px #CE0000;
+    position: absolute;
+    top: 10px;
+	left:10px;
+} 
